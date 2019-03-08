@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- android:layout_width="match_parent"
+ android:layout_height="wrap_content"  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/credits_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="5dp"
+
+    android:gravity="center_vertical"
+    android:minHeight="72dp"
+    >
+
+    <!--
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:maxWidth="100dp"
+    android:maxHeight="100dp"  -->
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+
+        android:id="@+id/movie_profile_path_view"
+        android:background="@drawable/not_available"
+        android:scaleType="centerCrop"
+        />
+
+    <!-- android:layout_weight="1"
+   android:layout_width="0dp"
+   OR
+   android:layout_height="0dp"
+   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        >
+
+        <!-- Album id / Hidden by default-->
+        <TextView
+            android:id="@+id/album_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/movie_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/movie_details_activity_small_letters_down"
+            android:minLines="2"
+            android:maxLines="2"
+            />
+
+        <TextView
+            android:id="@+id/movie_department_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/movie_details_activity_small_letters_down"
+            android:minLines="2"
+            android:maxLines="2"
+            />
+
+        <TextView
+            android:id="@+id/movie_job_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/movie_details_activity_small_letters_down"
+            android:minLines="2"
+            android:maxLines="2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

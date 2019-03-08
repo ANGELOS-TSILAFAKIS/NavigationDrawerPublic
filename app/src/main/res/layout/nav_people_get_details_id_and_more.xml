@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/people_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="5dp"
+
+    android:gravity="center_vertical"
+    android:minHeight="72dp"
+    tools:context="info.android_angel.navigationdrawer.activity_people.Show_People_Details_ID">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--  android:maxWidth="300dp"
+            android:maxHeight="300dp"
+
+            activity_main.xml
+            app:layout_collapseMode="parallax"
+
+                    android:minHeight="350dp"
+                    android:minWidth="350dp"
+            -->
+                <ImageView
+                    android:id="@+id/profile_path_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/star"
+
+                    android:scaleType="centerCrop"
+
+                    app:layout_collapseMode="parallax" />
+
+            </LinearLayout>
+
+            <!--  name  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_write_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@color/background_titles_details"
+                    android:paddingRight="16dp"
+                    android:text="@string/People_Name"
+                    android:textColor="@color/text_color_titles_details"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/text_color_details"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+            <!--  place_of_birth  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/place_of_birth_write_text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@color/background_titles_details"
+                    android:paddingRight="16dp"
+                    android:text="@string/People_Place_of_birth"
+                    android:textColor="@color/text_color_titles_details"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/place_of_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/text_color_details"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+            <!--  birthday  --> <!--  deathday  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--  birthday  -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/birthday_write_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="@color/background_titles_details"
+                        android:paddingRight="16dp"
+                        android:text="@string/People_Birthday"
+                        android:textColor="@color/text_color_titles_details"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/birthday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/text_color_details"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--  deathday  -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/deathday_write_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:background="@color/background_titles_details"
+                        android:paddingRight="16dp"
+                        android:text="@string/People_Deathday"
+                        android:textColor="@color/text_color_titles_details"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/deathday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/text_color_details"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--  biography-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--  biography-->
+                <TextView
+                    android:id="@+id/biography_write_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@color/background_titles_details"
+                    android:paddingRight="16dp"
+                    android:text="@string/People_Biography"
+                    android:textColor="@color/text_color_titles_details"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/biography"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/text_color_details"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--  homepage  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--  description -->
+                <TextView
+                    android:id="@+id/homepage_write_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:background="@color/background_titles_details"
+                    android:paddingRight="16dp"
+                    android:text="@string/People_Homepage"
+                    android:textColor="@color/text_color_titles_details"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/homepage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="16dp"
+                    android:textColor="@color/text_color_details"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!--  popularity  -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/popularity_write_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:background="@color/background_titles_details"
+                        android:paddingRight="16dp"
+                        android:text="@string/People_Popularity"
+                        android:textColor="@color/text_color_titles_details"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/popularity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/text_color_details"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+                <!--  gender  -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/gender_write_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:background="@color/background_titles_details"
+                        android:paddingRight="16dp"
+                        android:text="@string/People_Gender"
+                        android:textColor="@color/text_color_titles_details"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/text_color_details"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- android:layout_width="match_parent"
+ android:layout_height="wrap_content"  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/details_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="5dp"
+
+    android:gravity="center_vertical"
+    android:minHeight="72dp"
+    >
+
+    <!-- android:layout_weight="1"
+    android:layout_width="0dp"
+    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Album id / Hidden by default
+        <TextView
+            android:id="@+id/album_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+-->
+
+        <TextView
+            android:id="@+id/movie_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingRight="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/movie_name_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingRight="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:text="xaxaxaxa"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:minWidth="80dp"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:id="@+id/movie_poster_path_view"
+            android:background="@drawable/star"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:minWidth="80dp"
+            android:maxWidth="100dp"
+            android:maxHeight="100dp"
+            android:id="@+id/movie_backdrop_path_view"
+            android:background="@drawable/star"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

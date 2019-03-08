@@ -1,0 +1,167 @@
+<resources>
+
+    <string name="app_name">BCoM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_about_us">About TMDB</string>
+    <string name="privacy_policy">Grateful</string>
+
+    <!-- Εδώ έχουμε για την τηλεόραση και για τους διάσημους.
+    Επίσης έχουμε και για τις ταινίες. -->
+    <!-- Εδώ έχουμε για την τηλεόραση. -->
+    <string name="nav_tv_Get_TV_Airing_Today">TV Airing Today</string>
+    <string name="nav_tv_Get_TV_On_The_Air">TV On The Air</string>
+    <string name="nav_tv_Get_Popular">TV Popular</string>
+    <string name="nav_tv_Get_Top_Rated">TV Top Rated</string>
+
+    <string name="activity_title_Show_TV_Details_ID">TV Shows Details</string>
+
+    <!-- Εδώ έχουμε  για τους διάσημους. -->
+    <string name="nav_celebrities_Get_Popular">Popular Actors </string>
+    <string name="activity_title_Show_People_Details_ID">Person Details</string>
+
+    <!-- Toolbar titles when navigation menu item is selected
+    Best Choice of Movies & TV & Actors
+    -->
+    <string-array name="nav_item_activity_titles">
+        <item>Best Choice of Movies</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Grateful</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+
+    <!--  Πέντε κατηγορίες ταινιών.     movies    activity_main_drawer.xml  -->
+    <string name="activity_title_Show_Movie_Details_ID">Movie Details</string>
+    <string name="activity_title_Now_Playing_Movies">Now Playing Movies</string>
+    <string name="activity_title_Popular_Movies">Popular Movies</string>
+    <string name="activity_title_Top_Rated_Movies">Top Rated Movies</string>
+    <string name="activity_title_Upcoming_Movies">Upcoming Movies</string>
+
+    <!--2017-->
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Fullscreen Ad</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-0664570763252260/3326522424</string>
+    <string name="interstitial_full_screen">ca-app-pub-0664570763252260/1769900428</string>
+
+
+    <string name="activity_main_xml_app_bar_xml_movies">Now playing in cinemas</string>
+    <string name="activity_main_xml_app_bar_xml_people">Famous actors</string>
+    <string name="activity_main_xml_app_bar_xml_tv">Watch on TV</string>
+
+    <!-- Το κείμενο μετά. Με διάφορες πληροφορίες. activity_main -->
+    <string name="tmdb_movie_main_activity_text_1">This application is not intended to watch movies.</string>
+    <string name="tmdb_movie_main_activity_text_2">Please note: "This product uses the TMDB API but is not endorsed or certified by TMDB." </string>
+    <!-- TMDB is used as source for movie, TV, and celebrity content. -->
+    <string name="tmdb_movie_main_activity_text_3">TMDB is used as source for movie and TV content.</string>
+    <!-- ENJOY THE MOVIE -->
+    <string name="tmdb_movie_main_activity_text_4">FIND THE MOVIE</string>
+    <string name="tmdb_movie_main_activity_text_5">CREATE BY A.A.A.</string>
+
+    <!-- nav_movies_get_details_id_and_more   ALL STRINGS-->
+    <string name="Movies_Name_of_the_movie">Name of the movie</string>
+    <string name="Movies_Release_Date">Release Date</string>
+    <string name="Movies_Popularity">Popularity</string>
+    <string name="Movies_Description">Description</string>
+    <string name="Movies_Rating">Rating</string>
+    <string name="Movies_Budget">Budget</string>
+    <string name="Movies_Homepage">Homepage</string>
+    <string name="Movies_Production_companies">Production companies</string>
+    <string name="Movies_Production_countries">Production countries</string>
+    <!--  Έσοδα-->images_recycler_view
+    <string name="Movies_Revenue">Revenue</string>
+    <string name="Movies_Τagline">Τagline</string>
+    <string name="Movies_Runtime">Runtime</string>
+    <string name="Movies_credits_cast_recycler_view">Movie Cast</string>
+    <string name="Movies_recommendations_recycler_view">Recommendations</string>
+    <string name="Movies_Spoken_languages">Spoken languages</string>
+    <string name="Movies_Genres">Genres</string>
+    <string name="Movies_belongs_to_collection_recycler_view">Belongs to collection</string>
+    <string name="Movies_images_recycler_view">Movie Images</string>
+    <string name="Movies_reviews_recycler_view">Reviews</string>
+    <string name="Movies_credits_crew_recycler_view">Movie Crew</string>
+
+    <!-- nav_people_get_details_id_and_more   ALL STRINGS-->
+    <string name="People_Name">Name</string>
+    <string name="People_Place_of_birth">Place of birth</string>
+    <string name="People_Birthday">Birthday</string>
+    <string name="People_Deathday">Deathday</string>
+    <string name="People_Biography">Biography</string>
+    <string name="People_Homepage">Homepage</string>
+    <string name="People_Popularity">Popularity</string>
+    <!--Γένος -->
+    <string name="People_Gender">Gender</string>
+
+    <!-- nav_tv_get_details_id_and_more   ALL STRINGS  -->
+    <string name="TV_Name_of_the_TV_series">Name of the TV series</string>
+    <string name="TV_First_air_date">First air date</string>
+    <string name="TV_Last_air_date">Last air date</string>
+    <string name="TV_Popularity">Popularity</string>
+    <string name="TV_Homepage">Homepage</string>
+    <string name="TV_Number_of_episodes">Number of episodes</string>
+    <string name="TV_Number_of_seasons">Number of seasons</string>
+    <string name="TV_Language">Language</string>
+    <string name="TV_Original_name">Original name</string>
+    <string name="TV_Description">Description</string>
+    <string name="TV_Rating">Rating</string>
+    <string name="TV_Vote_count">Vote count</string>
+
+    <string name="TV_images_recycler_view">Images</string>
+
+    <!--   activity_about_us  ALL STRINGS-->
+    <string name="about_us_activity_title">Let\'s talk about TMDB</string>
+    <string name="about_us_activity_description">The Movie Database (TMDb) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb\'s strong international focus and breadth of data is largely unmatched and something we\'re incredibly proud of. Put simply, we live and breathe community and that\'s precisely what makes us different.</string>
+    <string name="about_us_activity_title_second">The TMDB Advantage</string>
+    <string name="about_us_activity_text_1">Every year since 2008, the number of contributions to our database has increased. With over 100,000 developers and companies using our platform, TMDb has become a premiere source for metadata.</string>
+    <string name="about_us_activity_text_2">
+    Along with extensive metadata for movies, TV shows and people, we also offer one of the best selections of high resolution posters and fanart. On average, over 1,000 images are added every single day.</string>
+    <string name="about_us_activity_text_3">We\'re international. While we officially support 39 languages we also have extensive regional data. Every single day TMDb is used in over 180 countries.</string>
+    <string name="about_us_activity_text_4">Our community is second to none. Between our staff and community moderators, we\'re always here to help. We\'re passionate about making sure your experience on TMDb is nothing short of amazing</string>
+    <string name="about_us_activity_text_5">Trusted platform. Every single day our service is used by millions of people while we process over 2 billion requests. We\'ve proven for years that this is a service that can be trusted and relied on</string>
+
+    <!-- Grateful   OR  privacy_policy   κάτω δεξιά είναι οι λεπτομέρειες για android hive στην ιστοσελίδα του
+    Although we have different interests and capabilities, what keeps up together is:
+    We have our channels on various digital avenues such as Google+, Facebook, YouTube.
+    -->
+    <string name="thanks_first">Thanks Ravi Tamada</string>
+    <string name="thanks_first_title_overview">ABOUT ANDROIDHIVE</string>
+    <string name="thanks_first_overview_1">Androidhive is independent online publication that covers android programming tutorials, app reviews and more. They are a team of some of the internet\'s most experienced android developers, user-experience designers and digital marketers.</string>
+    <string name="thanks_first_overview_2">Love for Android.</string>
+    <!--  www.androidhive.info  -->
+    <string name="thanks_first_homepage"></string>
+
+    <string name="thanks_second">TMDB</string>
+    <string name="thanks_second_overview">TMDB for free source database.</string>
+    <!--  https://www.themoviedb.org/  -->
+    <string name="thanks_second_homepage"></string>
+
+
+
+    <!--   ACTIVITY SEARCH  -->
+    <string name="People_recycler_view_search">Search Results for People</string>
+    <string name="Movie_recycler_view_search">Search Results for Movies</string>
+    <string name="TV_recycler_view_search">Search Results for TV</string>
+    <string name="SearchActivity">Search Results</string>
+
+
+    <string name="addTestDevice">C04B1BFFB0774708339BC273F8A43708</string>
+
+    <!--Insert the key. -->
+    <string name="API_KEY">Insert the key here.</string>
+
+</resources>

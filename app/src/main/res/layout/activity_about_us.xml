@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.android_angel.navigationdrawer.activity.AboutUsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rating_image_View"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/tmdb_black_and_large_width"
+                android:maxHeight="80dp"
+                android:minHeight="40dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/about_us_activity_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_title"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_activity_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_description"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_activity_title_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="35dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_title_second"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/about_us_activity_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_text_1"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_activity_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_text_2"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+                android:id="@+id/about_us_activity_text_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_text_3"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_activity_text_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_text_4"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_us_activity_text_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#1565C0"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:text="@string/about_us_activity_text_5"
+
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/backdrop_path_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logan_500"
+                android:maxHeight="80dp"
+                android:minHeight="40dp"
+                android:scaleType="centerCrop"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

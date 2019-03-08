@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.android_angel.navigationdrawer">
+
+    <!--<uses-sdk-->
+        <!--android:minSdkVersion="15"-->
+        <!--android:targetSdkVersion="25" />-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--  android-how-to-integrate-google-admob-in-your-app    2017 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/best_choice_of_movies_2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:minLines="3"
+        android:maxLines="3"
+        >
+
+        <!--  android-how-to-integrate-google-admob-in-your-app    2017 -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--  android-how-to-integrate-google-admob-in-your-app    2017 -->
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity.AboutUsActivity"
+            android:label="@string/activity_title_about_us" />
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity.PrivacyPolicyActivity"
+            android:label="@string/activity_title_privacy_policy" />
+
+        <!--  Πέντε κατηγορίες ταινιών.     movies -->
+      
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_movies.Show_Movie_Details_ID"
+            android:label="@string/activity_title_Show_Movie_Details_ID" />
+
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_movies.Now_playing_Movie"
+            android:label="@string/activity_title_Now_Playing_Movies" />
+
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_movies.Popular_Movie"
+            android:label="@string/activity_title_Popular_Movies" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_movies.Top_Rated_Movie"
+            android:label="@string/activity_title_Top_Rated_Movies" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_movies.Upcoming_Movie"
+            android:label="@string/activity_title_Upcoming_Movies" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_movies.SearchActivity"
+            android:label="@string/SearchActivity" />
+
+        <!--  Δύο κατηγορίες προσώπων.   people  -->
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_people.Show_People_Details_ID"
+            android:label="@string/activity_title_Show_People_Details_ID" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_people.Popular_People"
+            android:label="@string/nav_celebrities_Get_Popular" />
+
+        <!--  Πέντε κατηγορίες για την τηλεόραση.    tv -->
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_tv.Show_TV_Details_ID"
+            android:label="@string/activity_title_Show_TV_Details_ID" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_tv.Popular_TV"
+            android:label="@string/nav_tv_Get_Popular" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_tv.Top_Rated_TV"
+            android:label="@string/nav_tv_Get_Top_Rated" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_tv.TV_Airing_Today_TV"
+            android:label="@string/nav_tv_Get_TV_Airing_Today" />
+
+        <activity
+            android:name="info.android_angel.navigationdrawer.activity_tv.TV_On_The_Air_TV"
+            android:label="@string/nav_tv_Get_TV_On_The_Air" />
+
+
+    </application>
+
+</manifest>

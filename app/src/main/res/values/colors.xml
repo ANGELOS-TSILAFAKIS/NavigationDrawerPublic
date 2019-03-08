@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d32f2f</color>
+    <color name="colorPrimaryDark">#c72c2c</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="orange">#FF3909</color>
+    <color name="colorAccentDark">#00B482</color>
+
+    <color name="colorBlack">#555555</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#707070</color>
+    <color name="colorGreyLight">#8A8A8A</color>
+    <color name="colorblue">#1565C0</color>
+    <color name="colorRed_Dark">#c72c2c</color>
+
+    <!--star  -->
+    <color name="colorOfStar">#FF4081</color>
+
+    <color name="background_titles_details">#1565C0</color>
+    <color name="text_color_titles_details">#FFFFFF</color>
+    <color name="text_color_details">#555555</color>
+    <color name="background_color_reviews">#669664</color>
+</resources>

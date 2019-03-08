@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/activity_privacy_policy"
+android:orientation="vertical"
+android:background="#1565C0"
+tools:context="info.android_angel.navigationdrawer.activity.PrivacyPolicyActivity">
+
+    <TextView
+        android:id="@+id/grateful_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_first"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="60dp"
+        />
+
+    <TextView
+        android:id="@+id/grateful_first_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_first_title_overview"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="35dp"
+        />
+
+
+    <TextView
+        android:id="@+id/grateful_first_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_first_overview_1"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/grateful_first_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_first_overview_2"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/grateful_first_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+
+        android:text="@string/thanks_first_homepage"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/grateful_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_second"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="35dp"
+        />
+
+    <TextView
+        android:id="@+id/grateful_second_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_second_overview"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/grateful_second_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#1565C0"
+        android:paddingRight="16dp"
+        android:text="@string/thanks_second_homepage"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:textStyle="bold"
+
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="20dp"
+        />
+
+</LinearLayout>
